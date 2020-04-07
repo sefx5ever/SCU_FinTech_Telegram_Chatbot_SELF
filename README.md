@@ -1,7 +1,7 @@
 # SCU_FinTech_Telegram_Chatbot
 
-- 作業目標
-    將 Fugle API 以及 Telegram Chatbot API 結合，建立輕量級之聊天機器人，人性化的與用戶進行金融市場資訊之交換，最終作爲投資用戶的資訊參考媒介。
+- ### 作業目標
+將 Fugle API 以及 Telegram Chatbot API 結合，建立輕量級之聊天機器人，人性化的與用戶進行金融市場資訊之交換，最終作爲投資用戶的資訊參考媒介。
 
 - 作業工具
     - 程式語言：Python
