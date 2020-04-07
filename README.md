@@ -3,22 +3,18 @@
 - ### 作業目標
 將 Fugle API 以及 Telegram Chatbot API 結合，建立輕量級之聊天機器人，人性化的與用戶進行金融市場資訊之交換，最終作爲投資用戶的資訊參考媒介。
 
-- 作業工具
+- ### 作業工具
     - 程式語言：Python
     - 套件應用：Flask / Telegram / Request / JSON
     - API 應用：Fugle API / Telegram_bot API 
 
-- Fugle API 資訊
+- ### Fugle API 資訊
     - GET/intraday/chart
     - GET/intraday/quote
     - GET/intraday/meta
 
-- Turing API 資訊
-
-- 功能構思（Fugle菜雞專家）
-
-    聊天機器人説明：小傑是位投資新手，對於投資策略，看盤資訊一概不知。同時，在沒有額外金錢去訂閲財報之下，決定試試Fugle菜雞專家，期許在菜雞的帶領下能夠家財萬貫。
-
+- ### 功能構思（Fugle菜雞專家）
+聊天機器人説明：小傑是位投資新手，對於投資策略，看盤資訊一概不知。同時，在沒有額外金錢去訂閲財報之下，決定試試Fugle菜雞專家，期許在菜雞的帶領下能夠家財萬貫。
     - 輸入
     - 輸出
         - 【菜雞，菜雞】
@@ -59,13 +55,9 @@
             - 失敗輸出：抱歉，注冊失敗，在嘗試看看！
         - 【好友清單】
             - 好的，菜雞找到了你的好友列表：
-
                 → A
-
                 → B
-
                 享受分享功能，找到你的生活樂趣 ^_^
-
         - 【發給某某（全部）】
             - 將最新一筆之互動資訊（不包括注冊 / 非關鍵字）進行共享。
             - 成功輸出：好的，菜雞已爲您將資訊分享給某某喲！
@@ -78,9 +70,6 @@
     - app.py
     - config.py
     - telegram_process.py
-
-- 其他構思
-    - Fugle菜鳥投資人
 
 - 參考資料
     - [How To Create A Telegram Bot With Python](https://www.youtube.com/watch?v=GWH1XDXfAXQ)
