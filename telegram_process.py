@@ -4,7 +4,6 @@ from fugle_realtime import intraday
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from config import FUGLE_API_TOKEN,ACCESS_TOKEN
-from time import sleep
 from PIL import Image
 from io import BytesIO
 
@@ -301,7 +300,7 @@ class TelegramBot:
         else:
             to_api_token = self.api_db[msg_received.split(keyword)[1]]
             success = self.send_message(to_api_token)
-            self.out_msg = self.temp_msg = "報告主任，菜雞已幫您完成轉達！😎"
+            self.out_msg = self.temp_msg = "報告主人，菜雞已幫您完成轉達！😎"
             success = self.send_message()
         return success
 
