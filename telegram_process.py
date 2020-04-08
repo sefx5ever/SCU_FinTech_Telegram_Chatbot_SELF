@@ -291,15 +291,18 @@ class TelegramBot:
         To forward the importand news to other registered bot.
         """
         print('【serv_forward_msg】')
-
         # Check whether is empty
         if not bool(self.api_db):
             self.out_msg = self.temp_msg  = "好可憐哦，主人！您目前沒朋友！🤣"
             success = self.send_message()
+        elif msg_received.split(keyword)[1] not in self.api_db.keys():
+            self.out_msg = self.temp_msg = "抱歉查無此人！！！ 重新再來吧 🤣"
+            success = self.send_message()
         else:
             to_api_token = self.api_db[msg_received.split(keyword)[1]]
-            print(to_api_token)
             success = self.send_message(to_api_token)
+            self.out_msg = self.temp_msg = "報告主任，菜雞已幫您完成轉達！😎"
+            success = self.send_message()
         return success
 
     def serv_others(self,msg_received):
