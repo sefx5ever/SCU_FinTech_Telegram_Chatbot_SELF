@@ -1,19 +1,20 @@
-# SCU_FinTech_Telegram_Chatbot
+## 專案簡介（Fugle菜雞專家）
+本專案結合 Fugle API 及 Telegram 服務，學習撰寫 Telegram 聊天機器人，加入創意元素，讓機器人能夠更靈活，更多元。
 
-- ### 作業目標
+## 作業目標
 將 Fugle API 以及 Telegram Chatbot API 結合，建立輕量級之聊天機器人，人性化的與用戶進行金融市場資訊之交換，最終作爲投資用戶的資訊參考媒介。
 
-- ### 作業工具
+## 作業工具
     - 程式語言：Python
     - 套件應用：Flask / Telegram / Request / JSON
     - API 應用：Fugle API / Telegram_bot API 
 
-- ### Fugle API 資訊
+## Fugle API 資訊
     - GET/intraday/chart
     - GET/intraday/quote
     - GET/intraday/meta
 
-- ### 功能構思（Fugle菜雞專家）
+## 功能構思
 聊天機器人説明：小傑是位投資新手，對於投資策略，看盤資訊一概不知。同時，在沒有額外金錢去訂閲財報之下，決定試試Fugle菜雞專家，期許在菜雞的帶領下能夠家財萬貫。
 
 - 輸入
