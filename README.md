@@ -1,10 +1,10 @@
 ## 專案簡介（Fugle菜雞專家）
 本專案結合 Fugle API 及 Telegram 服務，學習撰寫 Telegram 聊天機器人，加入創意元素，讓機器人能夠更靈活，更多元。
 
-## 作業目標
+## 專案目標
 將 Fugle API 以及 Telegram Chatbot API 結合，建立輕量級之聊天機器人，人性化的與用戶進行金融市場資訊之交換，最終作爲投資用戶的資訊參考媒介。
 
-## 作業工具
+## 專案工具
     - 程式語言：Python
     - 套件應用：Flask / Telegram / Request / JSON
     - API 應用：Fugle API / Telegram_bot API 
